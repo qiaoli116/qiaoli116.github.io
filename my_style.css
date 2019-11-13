@@ -1,0 +1,31 @@
+/* 3.2. Customization – Identify & update CSS code Start */
+.resume-section-title {
+    color: rgb(233, 120, 120);
+}
+/* 3.2. Customization – Identify & update CSS code End */
+
+/* 3.3 Customization – Add sections – Coding - Start*/
+/* style the tabs layout a bit */
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    border-color: transparent;
+}
+
+.nav-tabs {
+    border-color: transparent;
+}
+
+.nav-link {
+    padding-left: 0;
+}
+
+.nav-tabs .nav-link:not(.active) .resume-section-title {
+    color: rgb(85, 85, 85);
+}
+.nav-tabs .nav-link:not(.active) .resume-section-title::after{
+    content: none;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: transparent;
+}
+/* 3.3 Customization – Add sections – Coding - End*/
